@@ -6,6 +6,18 @@
     <description>Flotnote changelog</description>
     <language>en</language>
     <item>
+      <title>Version 0.1.2</title>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+      <pubDate>Sun, 19 Apr 2026 01:10:25 +0000</pubDate>
+      <enclosure
+        url="https://github.com/tinyshipsailors/flotnote.app/releases/download/v0.1.2/Flotnote-v0.1.2.dmg"
+        sparkle:edSignature="b9s4wSucn8meqkMv1MkfMhLyswYCuK3YM8aS9J/2WErlUgEZn5HQdGmP27scIZk6oVXb9UFZ0MmCqt82EsUgBg=="
+        length="2139068"
+        type="application/octet-stream"
+      />
+    </item>
+    <item>
       <title>Version 0.1.1</title>
       <sparkle:version>4</sparkle:version>
       <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
