@@ -6,6 +6,19 @@
     <description>Flotnote changelog</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.2</title>
+      <description><![CDATA[<ul><li>Added "Enable folder view" toggle in Settings — when off, note switcher shows a flat list with dimmed folder prefixes inline</li><li>Folder headers now abbreviate deep paths (e.g. `A › … › Last`) instead of showing full path</li><li>"Expand folders by default" setting is disabled when folder view is off</li></ul>]]></description>
+      <sparkle:version>10</sparkle:version>
+      <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+      <pubDate>Fri, 24 Apr 2026 04:02:06 +0000</pubDate>
+      <enclosure
+        url="https://github.com/tinyshipsailors/flotnote.app/releases/download/v1.0.2/Flotnote-v1.0.2.dmg"
+        sparkle:edSignature="NX37+Y6A8pmDgd8QBa3a/O3h2OY4O5Aox6kJ4rV1c/AFI7uZnnkAADGC8R5ohhW6r42j9yrcjeRrRd2jUc5ZCA=="
+        length="2214310"
+        type="application/octet-stream"
+      />
+    </item>
+    <item>
       <title>Version 1.0.1</title>
       <description><![CDATA[<ul><li>Checked tasks now show strikethrough and dimmed text</li></ul>]]></description>
       <sparkle:version>9</sparkle:version>
