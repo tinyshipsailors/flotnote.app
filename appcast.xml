@@ -6,6 +6,19 @@
     <description>Flotnote changelog</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.3</title>
+      <description><![CDATA[<ul><li>Fixed hang on launch when notes folder is in iCloud and some files haven't downloaded yet — app now opens instantly and skips stub files until iCloud delivers them</li></ul>]]></description>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+      <pubDate>Sat, 25 Apr 2026 23:54:24 +0000</pubDate>
+      <enclosure
+        url="https://github.com/tinyshipsailors/flotnote.app/releases/download/v1.0.3/Flotnote-v1.0.3.dmg"
+        sparkle:edSignature="dy5kfqzc//ofIRmcRBGZTcat9ukXEAQHyeodc3dFc7p+Hk7XgDpBlGwpgtY1mbVvVxRKMYmIsUkYKWCuHRRPAg=="
+        length="2213332"
+        type="application/octet-stream"
+      />
+    </item>
+    <item>
       <title>Version 1.0.2</title>
       <description><![CDATA[<ul><li>Added "Enable folder view" toggle in Settings — when off, note switcher shows a flat list with dimmed folder prefixes inline</li><li>Folder headers now abbreviate deep paths (e.g. `A › … › Last`) instead of showing full path</li><li>"Expand folders by default" setting is disabled when folder view is off</li></ul>]]></description>
       <sparkle:version>10</sparkle:version>
