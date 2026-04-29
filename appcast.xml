@@ -6,6 +6,19 @@
     <description>Flotnote changelog</description>
     <language>en</language>
     <item>
+      <title>Version 1.1.0</title>
+      <description><![CDATA[<ul><li>Added free trial mode</li></ul>]]></description>
+      <sparkle:version>12</sparkle:version>
+      <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+      <pubDate>Wed, 29 Apr 2026 05:28:49 +0000</pubDate>
+      <enclosure
+        url="https://github.com/tinyshipsailors/flotnote.app/releases/download/v1.1.0/Flotnote-v1.1.0.dmg"
+        sparkle:edSignature="LviArdNw/Xvuifrw3X43pegr2CkBx4HulHa4pc7StwyXUQO/by2vRcmf8kR9d+p/wJiYsBaM3jd7U54/LTVhCQ=="
+        length="2441159"
+        type="application/octet-stream"
+      />
+    </item>
+    <item>
       <title>Version 1.0.3</title>
       <description><![CDATA[<ul><li>Fixed hang on launch when notes folder is in iCloud and some files haven't downloaded yet — app now opens instantly and skips stub files until iCloud delivers them</li></ul>]]></description>
       <sparkle:version>11</sparkle:version>
