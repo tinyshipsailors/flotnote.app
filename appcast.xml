@@ -6,6 +6,19 @@
     <description>Flotnote changelog</description>
     <language>en</language>
     <item>
+      <title>Version 1.1.1</title>
+      <description><![CDATA[<ul><li>Trial countdown shown as inline banner below editor and as a card in Settings (replaces title label badge)</li><li>Pressing Enter in an unordered list (`-`, `*`, `+`) now auto-continues the bullet; pressing Enter on an empty bullet breaks out of the list</li><li>Fixed fenced code block syntax colors invisible in light mode</li></ul>]]></description>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+      <pubDate>Fri, 01 May 2026 14:59:36 +0000</pubDate>
+      <enclosure
+        url="https://github.com/tinyshipsailors/flotnote.app/releases/download/v1.1.1/Flotnote-v1.1.1.dmg"
+        sparkle:edSignature="p36NDKArBX32KzUv6wEeWE4Re1plN1u4DB+q6++TkYbh66zaAem0E2FTQz63gda3JK056lH/famoe5gnSPlfAQ=="
+        length="2444716"
+        type="application/octet-stream"
+      />
+    </item>
+    <item>
       <title>Version 1.1.0</title>
       <description><![CDATA[<ul><li>Added free trial mode</li></ul>]]></description>
       <sparkle:version>12</sparkle:version>
