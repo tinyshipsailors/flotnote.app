@@ -7,6 +7,19 @@
     <language>en</language>
     <item>
       <title>Version 1.1.2</title>
+      <description><![CDATA[<ul><li>Fixed licensed users being shown the "trial ended" lockout screen — caused by the background ticker misidentifying a licensed user's permanent "trial expired" state as an actual trial expiry event</li></ul>]]></description>
+      <sparkle:version>18</sparkle:version>
+      <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+      <pubDate>Sat, 02 May 2026 11:26:09 +0000</pubDate>
+      <enclosure
+        url="https://github.com/tinyshipsailors/flotnote.app/releases/download/v1.1.2/Flotnote-v1.1.2.dmg"
+        sparkle:edSignature="BUBdThFFMaZIvCR047Ks6VG2Jmy8LvVxDbypw0nLBnE73N5W/IR6NtvVgcxbKVT6pF6DxCSVOZFBawvz79mbBA=="
+        length="2472237"
+        type="application/octet-stream"
+      />
+    </item>
+    <item>
+      <title>Version 1.1.2</title>
       <description><![CDATA[<ul><li>Fixed licensed users being shown the "trial ended" lockout screen due to Polar API returning unexpected validation responses or network issues</li></ul>]]></description>
       <sparkle:version>17</sparkle:version>
       <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
