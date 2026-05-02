@@ -6,6 +6,19 @@
     <description>Flotnote changelog</description>
     <language>en</language>
     <item>
+      <title>Version 1.1.2</title>
+      <description><![CDATA[<ul><li>Fixed licensed users being shown the "trial ended" lockout screen when the app launched without network access</li></ul>]]></description>
+      <sparkle:version>16</sparkle:version>
+      <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+      <pubDate>Sat, 02 May 2026 04:45:37 +0000</pubDate>
+      <enclosure
+        url="https://github.com/tinyshipsailors/flotnote.app/releases/download/v1.1.2/Flotnote-v1.1.2.dmg"
+        sparkle:edSignature="COuUoALKLFk/y5zUmVf5HhOT8eYa9ey1sB9kS7RaJZXxgLCv9sNWkLU0t3O03WHNtqvUuV0A0OoNLBFVKqdkBA=="
+        length="2470844"
+        type="application/octet-stream"
+      />
+    </item>
+    <item>
       <title>Version 1.1.1</title>
       <description><![CDATA[<ul><li>Trial countdown shown as inline banner below editor and as a card in Settings (replaces title label badge)</li><li>Pressing Enter in an unordered list (`-`, `*`, `+`) now auto-continues the bullet; pressing Enter on an empty bullet breaks out of the list</li><li>Fixed fenced code block syntax colors invisible in light mode</li></ul>]]></description>
       <sparkle:version>15</sparkle:version>
