@@ -8,6 +8,19 @@
     <item>
       <title>Version 1.1.1</title>
       <description><![CDATA[<ul><li>Trial countdown shown as inline banner below editor and as a card in Settings (replaces title label badge)</li><li>Pressing Enter in an unordered list (`-`, `*`, `+`) now auto-continues the bullet; pressing Enter on an empty bullet breaks out of the list</li><li>Fixed fenced code block syntax colors invisible in light mode</li></ul>]]></description>
+      <sparkle:version>15</sparkle:version>
+      <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+      <pubDate>Sat, 02 May 2026 00:25:54 +0000</pubDate>
+      <enclosure
+        url="https://github.com/tinyshipsailors/flotnote.app/releases/download/v1.1.1/Flotnote-v1.1.1.dmg"
+        sparkle:edSignature="7yaSYdLL7EaqWsaBSQviWS1fQgJ/5zG4yEiG0PtjjNFDJMck7fN26rPvHmCj18MNwiKefB7h3iG58I5iKkVWCA=="
+        length="2470924"
+        type="application/octet-stream"
+      />
+    </item>
+    <item>
+      <title>Version 1.1.1</title>
+      <description><![CDATA[<ul><li>Trial countdown shown as inline banner below editor and as a card in Settings (replaces title label badge)</li><li>Pressing Enter in an unordered list (`-`, `*`, `+`) now auto-continues the bullet; pressing Enter on an empty bullet breaks out of the list</li><li>Fixed fenced code block syntax colors invisible in light mode</li></ul>]]></description>
       <sparkle:version>14</sparkle:version>
       <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
       <pubDate>Fri, 01 May 2026 22:43:42 +0000</pubDate>
