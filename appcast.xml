@@ -6,6 +6,19 @@
     <description>Flotnote changelog</description>
     <language>en</language>
     <item>
+      <title>Version 1.1.4</title>
+      <description><![CDATA[<ul><li>Fixed new notes sometimes refusing keyboard input — after a character or two, typing would stop with a beep and focus could jump to the desktop/Finder. New notes now reliably keep keyboard focus in the title and editor.</li></ul>]]></description>
+      <sparkle:version>20</sparkle:version>
+      <sparkle:shortVersionString>1.1.4</sparkle:shortVersionString>
+      <pubDate>Mon, 15 Jun 2026 00:27:47 +0000</pubDate>
+      <enclosure
+        url="https://github.com/tinyshipsailors/flotnote.app/releases/download/v1.1.4/Flotnote-v1.1.4.dmg"
+        sparkle:edSignature="MTDihEyqTAeiQWDjpmXsGdCozmPA7VSf3HGHzzI/PAGUMhwFRykDqbgia7Jdydxk/ptpuo/Uue07dIi/CqrJCg=="
+        length="2479446"
+        type="application/octet-stream"
+      />
+    </item>
+    <item>
       <title>Version 1.1.3</title>
       <description><![CDATA[<ul><li>Fixed notes briefly showing as empty (or jumping to a random note) while iCloud is still syncing — the current note now stays open and a "Syncing from iCloud…" loading screen is shown until downloads finish</li><li>Fixed underscores inside words being treated as italic (e.g. `test_one_two` rendered as `testonetwo`) — intraword underscores are now kept literal, matching standard Markdown</li></ul>]]></description>
       <sparkle:version>19</sparkle:version>
