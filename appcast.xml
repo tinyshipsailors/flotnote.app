@@ -6,6 +6,19 @@
     <description>Flotnote changelog</description>
     <language>en</language>
     <item>
+      <title>Version 1.1.5</title>
+      <description><![CDATA[<ul><li>Fixed typing the letter "a" unexpectedly opening a file picker (or toggling the window) after a keyboard shortcut had been cleared in Settings — a cleared shortcut is no longer mistaken for the "a" key</li></ul>]]></description>
+      <sparkle:version>21</sparkle:version>
+      <sparkle:shortVersionString>1.1.5</sparkle:shortVersionString>
+      <pubDate>Thu, 13 Aug 2026 23:18:45 +0000</pubDate>
+      <enclosure
+        url="https://github.com/tinyshipsailors/flotnote.app/releases/download/v1.1.5/Flotnote-v1.1.5.dmg"
+        sparkle:edSignature="6/qI3YpuQAcUui2hPGqDk4xsuLrppitx1ujQRDFGIQrrd5B1CwJQkuM+AiIQKfAuqvy3IbUyp5cJBgUkBPXaDg=="
+        length="2480403"
+        type="application/octet-stream"
+      />
+    </item>
+    <item>
       <title>Version 1.1.4</title>
       <description><![CDATA[<ul><li>Fixed new notes sometimes refusing keyboard input — after a character or two, typing would stop with a beep and focus could jump to the desktop/Finder. New notes now reliably keep keyboard focus in the title and editor.</li></ul>]]></description>
       <sparkle:version>20</sparkle:version>
