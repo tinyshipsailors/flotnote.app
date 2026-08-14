@@ -6,6 +6,19 @@
     <description>Flotnote changelog</description>
     <language>en</language>
     <item>
+      <title>Version 1.3.1</title>
+      <description><![CDATA[<ul></li>**Select a bunch of notes at once.** Browse Notes now has a Select mode — tap the checkmark next to the sort button, or just Cmd-click any note. Tick the ones you want, then move them all to a folder (new folders included) or send them to the Trash in one go. Select All, Unselect All, and Done sit right there in the toolbar, and Esc backs you out.</li></li>**Settings got a proper going-over.** Global shortcuts now show as real keycaps — click one to record and it lights up the modifiers as you hold them, exactly like macOS System Settings, and Reset to Defaults puts them back if you change your mind. The Behavior switches are now sorted into Panel, Browse Notes, and System groups, each with an icon and a plain-English caption, and the Notes Directory row shows your folder, how many notes are in it, and a button to reveal it in Finder.</li></li>**Smoother typing in big notes.** The editor used to re-scan the whole document for code fences on every keystroke and scroll. Now it only looks at what's on screen, so long or code-heavy notes stay responsive.</li></li>**No more phantom notes.** When iCloud, Obsidian, or git touched your files, Flotnote could pile up duplicate or empty ghost notes and flicker the list. It now folds those bursts into a single refresh, only redraws when something actually changed, and drops the empty notes you've navigated away from — just like Apple Notes.</li></ul>]]></description>
+      <sparkle:version>24</sparkle:version>
+      <sparkle:shortVersionString>1.3.1</sparkle:shortVersionString>
+      <pubDate>Fri, 14 Aug 2026 22:30:17 +0000</pubDate>
+      <enclosure
+        url="https://github.com/tinyshipsailors/flotnote.app/releases/download/v1.3.1/Flotnote-v1.3.1.dmg"
+        sparkle:edSignature="70ymZcEBOzZDbsLP7nI7I91ylAV/4Jw16ZI1JfQqlP6GJUqJ2plWBVWjxDd2dy6KuVZIk2DTxPRbDOeEnQKqBA=="
+        length="3387932"
+        type="application/octet-stream"
+      />
+    </item>
+    <item>
       <title>Version 1.3.0</title>
       <description><![CDATA[<ul><li>New: **Action panel** (`Cmd+K` or the bolt button in the titlebar) — a searchable command palette with every Flotnote action: New/Duplicate/Browse/Find, Move to Folder, Pin, Show in Finder, Delete; Copy Note As Markdown/HTML/Plain Text (`Cmd+Shift+C`); Export to file or Share to other apps (`Cmd+Shift+E`); a Format sub-panel (`Cmd+Shift+,`) incl. new Code Block; Move Line Up/Down (`Ctrl+Cmd+↑/↓`); Reset Window Size (`Cmd+Shift+0`); Hide/Show Format Bar (`Opt+Cmd+,`); editor zoom (`Cmd+=` / `Cmd+-` / `Cmd+0`); and Show/Hide While Screen Sharing (`Cmd+Shift+H`). Copy/save show a success toast, Delete asks for confirmation, and shortcut badges reflect your configured Settings shortcuts. The Settings gear moved out of the titlebar into the Action panel (`Cmd+,` still works)</li><li>Much faster note search: results are now computed once per keystroke instead of dozens of times per render, sorting no longer happens while typing, and extending a query only re-scans the previous results — typing in Browse Notes stays smooth with large libraries</li></ul>]]></description>
       <sparkle:version>23</sparkle:version>
