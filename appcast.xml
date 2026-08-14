@@ -6,6 +6,19 @@
     <description>Flotnote changelog</description>
     <language>en</language>
     <item>
+      <title>Version 1.2.0</title>
+      <description><![CDATA[<ul><li>Fixed rolling the system clock back extending the free trial (up to 9+ days shown) — clock rollback beyond the trial start now marks the trial expired, with a one-day tolerance for timezone changes</li><li>Fixed right-click menus (and their submenus) closing when the cursor moved outside the Flotnote window — the window's hover tracking no longer updates while a menu is open</li><li>New: folder picker in the title area — see and change which folder a note lives in; for a brand-new note it chooses where the file is created. Opens with a click or `Cmd+Shift+M`, has a search box to filter folders, and typing a name that doesn't exist offers Create "name" inline</li><li>New: right-click a note in the switcher → Move to Folder (also Pin, Show in Finder, Move to Trash)</li><li>New notes (Cmd+N / + button) are now created in the same folder as the currently active note instead of always the root</li><li>Renaming or moving a note no longer recreates the editor — notes now keep a stable internal identity when their file path changes, fixing focus hiccups after a title commit</li><li>Fixed rename filename-collision checks running against the root folder for notes inside subfolders</li><li>Fixed the entire formatting toolbar (Bold, Italic, lists, etc.) permanently stopping working — a stale cursor position cached from a previous note could point outside the current note; every toolbar action then failed silently, and the poisoned cache was never cleared until the app restarted. The cache is now invalidated on note switch and validated before use</li><li>Fixed tables sometimes not rendering when a note is first opened (only fixed by toggling Source Mode and back) — the table widget now rebuilds when background parsing finishes</li><li>Typing a single `-` under a line of text no longer turns it into a heading — setext H2 now requires at least `--`, so starting a bullet point doesn't restyle the text above. Note: `---` typed directly under text now renders as a divider (horizontal rule) instead of a heading</li><li>Fixed list lines jumping left when the cursor enters them — the active line now keeps the same hanging indent as its rendered version, and the raw `-`/`1.` marker sits in the same spot as the rendered bullet. This also makes multi-line selection highlights over lists align evenly</li></ul>]]></description>
+      <sparkle:version>22</sparkle:version>
+      <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+      <pubDate>Fri, 14 Aug 2026 08:49:48 +0000</pubDate>
+      <enclosure
+        url="https://github.com/tinyshipsailors/flotnote.app/releases/download/v1.2.0/Flotnote-v1.2.0.dmg"
+        sparkle:edSignature="ZL9xIC4ePrgATpAPW13TUQituSPfjuv34kdzmC896BDJhcZuMtjSdDwjlYsQf+zMKWuHnHljfikO/Skfd/0ZBA=="
+        length="3095513"
+        type="application/octet-stream"
+      />
+    </item>
+    <item>
       <title>Version 1.1.5</title>
       <description><![CDATA[<ul><li>Fixed typing the letter "a" unexpectedly opening a file picker (or toggling the window) after a keyboard shortcut had been cleared in Settings — a cleared shortcut is no longer mistaken for the "a" key</li></ul>]]></description>
       <sparkle:version>21</sparkle:version>
