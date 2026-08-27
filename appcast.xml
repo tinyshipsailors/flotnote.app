@@ -6,6 +6,19 @@
     <description>Flotnote changelog</description>
     <language>en</language>
     <item>
+      <title>Version 1.3.2</title>
+      <description><![CDATA[<p><strong>The privacy eye now tells you when it matters.</strong> The eye in the titlebar used to just mirror a setting. Now it shows up only while your screen is actually being recorded or shared, and it tells you where you stand: a red slashed eye means the notes window is hidden from whoever's watching, a plain gray eye means they can see it. Click it for a quick note on what's happening and the ⇧⌘H shortcut to flip it.</p><p><strong>Long titles stay on one line.</strong> A note with a long title used to run its text under the toolbar buttons. Titles now trim to a single line with an ellipsis and stop short of the buttons.</p><p><strong>The Action button (the bolt) is clickable again.</strong> With a long title the title label sat on top of the toolbar and ate clicks meant for the bolt, so its left half did nothing. Clicks now reach the button.</p><p><strong>Shortcuts can't be stolen anymore.</strong> Recording a global shortcut that another action already uses is now rejected with a beep and a "Used by …" note, so you can't silently disable one hotkey by assigning its combo to something else.</p>]]></description>
+      <sparkle:version>25</sparkle:version>
+      <sparkle:shortVersionString>1.3.2</sparkle:shortVersionString>
+      <pubDate>Thu, 27 Aug 2026 13:35:17 +0000</pubDate>
+      <enclosure
+        url="https://github.com/tinyshipsailors/flotnote.app/releases/download/v1.3.2/Flotnote-v1.3.2.dmg"
+        sparkle:edSignature="XUy+PgWGDBi8ZOnFxBHJjlUUCngWnwYapY+5eRJ6V/S/nZap3wpQWm1QNONW42VPSGzv6YUuDo0xjSa9BbBDBg=="
+        length="3404485"
+        type="application/octet-stream"
+      />
+    </item>
+    <item>
       <title>Version 1.3.1</title>
       <description><![CDATA[<p><strong>Select a bunch of notes at once.</strong> Browse Notes now has a Select mode — tap the checkmark next to the sort button, or just Cmd-click any note. Tick the ones you want, then move them all to a folder (new folders included) or send them to the Trash in one go. Select All, Unselect All, and Done sit right there in the toolbar, and Esc backs you out.</p><p><strong>Settings got a proper going-over.</strong> Global shortcuts now show as real keycaps — click one to record and it lights up the modifiers as you hold them, exactly like macOS System Settings, and Reset to Defaults puts them back if you change your mind. The Behavior switches are now sorted into Panel, Browse Notes, and System groups, each with an icon and a plain-English caption, and the Notes Directory row shows your folder, how many notes are in it, and a button to reveal it in Finder.</p><p><strong>Smoother typing in big notes.</strong> The editor used to re-scan the whole document for code fences on every keystroke and scroll. Now it only looks at what's on screen, so long or code-heavy notes stay responsive.</p><p><strong>No more phantom notes.</strong> When iCloud, Obsidian, or git touched your files, Flotnote could pile up duplicate or empty ghost notes and flicker the list. It now folds those bursts into a single refresh, only redraws when something actually changed, and drops the empty notes you've navigated away from — just like Apple Notes.</p>]]></description>
       <sparkle:version>24</sparkle:version>
