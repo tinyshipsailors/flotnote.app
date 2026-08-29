@@ -6,6 +6,19 @@
     <description>Flotnote changelog</description>
     <language>en</language>
     <item>
+      <title>Version 1.3.3</title>
+      <description><![CDATA[<ul><li><strong>Exported HTML keeps your images.</strong> Image links used to point at files on your Mac, so they broke as soon as the file left it. Images are now embedded into the export itself, the file is a proper standalone page with your note title at the top, and Copy Note As HTML carries its images along too.</li><li><strong>Click an image to see it full size.</strong> It opens in macOS Quick Look: zoom, pinch, close with Esc or Space. Web images open in your browser.</li><li><strong>Nested lists line up.</strong> Every level steps in by the same amount whether you indent with tabs or spaces, and the focused line sits exactly where the rendered one does. We measured this pixel by pixel, five levels deep.</li><li><strong>Reset Window Size keeps the window in place.</strong> It resizes around the center and stays on screen instead of drifting toward a corner.</li><li><strong>The note header is a breadcrumb now.</strong> A slim row above the title holds the folder chip, Show in Finder right beside it, and Pin on the far right. Below that comes the title, then your text. The "Updated at" timestamp moved into the save dot's hover at the bottom right, next to the save status.</li><li><strong>Buttons look clickable.</strong> The folder, Show in Finder, and Pin buttons show a pointing-hand cursor instead of the text cursor.</li><li><strong>Show/Hide While Screen Sharing confirms itself.</strong> Toggling it shows a short toast with an eye icon: green for visible, red slashed for hidden.</li><li><strong>Long titles use the whole titlebar.</strong> On a narrow window the title fills the space between the traffic lights and the buttons before it trims with an ellipsis.</li><li><strong>Duplicate-shortcut protection works now.</strong> We announced it in v1.3.2, but a wiring mistake left it inactive in that build. Recording a combo that another action already uses gets a beep and a "Used by" note, and global hotkeys pause while you record so they don't fire mid-capture.</li></ul>]]></description>
+      <sparkle:version>26</sparkle:version>
+      <sparkle:shortVersionString>1.3.3</sparkle:shortVersionString>
+      <pubDate>Sat, 29 Aug 2026 16:04:29 +0000</pubDate>
+      <enclosure
+        url="https://github.com/tinyshipsailors/flotnote.app/releases/download/v1.3.3/Flotnote-v1.3.3.dmg"
+        sparkle:edSignature="CkY9yFFXUM16/WOEZPHEeH9ibDNV21eiNKBqGzdEmcT79IC+hNeQo7vtu6vJDT7vXkX1f/Ly00S7M5FNvZUwCA=="
+        length="3434718"
+        type="application/octet-stream"
+      />
+    </item>
+    <item>
       <title>Version 1.3.2</title>
       <description><![CDATA[<p><strong>The privacy eye now tells you when it matters.</strong> The eye in the titlebar used to just mirror a setting. Now it shows up only while your screen is actually being recorded or shared, and it tells you where you stand: a red slashed eye means the notes window is hidden from whoever's watching, a plain gray eye means they can see it. Click it for a quick note on what's happening and the ⇧⌘H shortcut to flip it.</p><p><strong>Long titles stay on one line.</strong> A note with a long title used to run its text under the toolbar buttons. Titles now trim to a single line with an ellipsis and stop short of the buttons.</p><p><strong>The Action button (the bolt) is clickable again.</strong> With a long title the title label sat on top of the toolbar and ate clicks meant for the bolt, so its left half did nothing. Clicks now reach the button.</p><p><strong>Shortcuts can't be stolen anymore.</strong> Recording a global shortcut that another action already uses is now rejected with a beep and a "Used by …" note, so you can't silently disable one hotkey by assigning its combo to something else.</p>]]></description>
       <sparkle:version>25</sparkle:version>
