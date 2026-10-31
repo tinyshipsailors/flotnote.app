@@ -6,6 +6,19 @@
     <description>Flotnote changelog</description>
     <language>en</language>
     <item>
+      <title>Version 1.7.3</title>
+      <description><![CDATA[<p><strong>Bug Fixes</strong></p><ul><li><strong>The [[ note picker is readable in the Light theme.</strong> With Theme set to Light, typing [[ showed a white list with white text, so only the highlighted row in dark blue could be read. The names now show in dark text, and the row you're on gets a light gray highlight. The list that pops up when you type # to add a tag had the same problem and is fixed too.</li><li><strong>Long numbered lists stay on one line per item.</strong> From item 20 on, some fonts had no room for the number, so "20" sat alone on one line and the period and text dropped to the next. Each number now fits next to its text, and every item in the list lines up.</li></ul>]]></description>
+      <sparkle:version>36</sparkle:version>
+      <sparkle:shortVersionString>1.7.3</sparkle:shortVersionString>
+      <pubDate>Sat, 31 Oct 2026 12:45:05 +0000</pubDate>
+      <enclosure
+        url="https://github.com/tinyshipsailors/flotnote.app/releases/download/v1.7.3/Flotnote-v1.7.3.dmg"
+        sparkle:edSignature="04snQLAzTB9gkCOSzjZ1vdWdVm5Xyokdj63EtBmpJcyKxGr8djSGUBXO/zq9ocQwr7WZHrxZnkrxZOtf5qLQDg=="
+        length="4960622"
+        type="application/octet-stream"
+      />
+    </item>
+    <item>
       <title>Version 1.7.2</title>
       <description><![CDATA[<p><strong>What's New</strong></p><ul><li><strong>Move a file into your notes folder.</strong> When you open a Markdown file from somewhere else on your Mac, the folder chip in the title now shows the folder it lives in. Click the chip or press Shift+Cmd+M, pick a folder, and Flotnote moves the file there, where it becomes a regular note like the rest. This moves the file itself, so no copy stays behind in the old folder, and the note keeps its tab and its pin. It ends up as a .md file. Move into Notes Folder… in the Action panel does the same.</li></ul><p><strong>Bug Fixes</strong></p><ul><li><strong>Links to a heading in the same note work.</strong> Clicking a link like `[see setup](#setup)` used to do nothing. Now it scrolls to that heading. GitHub-style links (`#setup-steps`) and Obsidian-style ones (`#Setup%20steps`) both work, and these links no longer carry the small arrow meant for links to websites.</li><li><strong>Numbered headings keep their number.</strong> A heading like `## 2. Template` showed up as just "Template" in Go to Heading. Now it shows "2. Template", and a link to it (`#2-template`) finds it.</li></ul>]]></description>
       <sparkle:version>35</sparkle:version>
