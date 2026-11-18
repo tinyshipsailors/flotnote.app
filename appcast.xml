@@ -6,6 +6,19 @@
     <description>Flotnote changelog</description>
     <language>en</language>
     <item>
+      <title>Version 1.9.1</title>
+      <description><![CDATA[<p><strong>Bug Fixes</strong></p><ul><li><strong>Backticks work inside code blocks.</strong> After typing ``` to start a code block, a backtick at the start of a line inside it was ignored, so you couldn't type ` or `` there. You can now type backticks anywhere in a code block. Flotnote only holds back the third backtick that would end a block early and turn the rest of the note into code.</li></ul>]]></description>
+      <sparkle:version>39</sparkle:version>
+      <sparkle:shortVersionString>1.9.1</sparkle:shortVersionString>
+      <pubDate>Wed, 18 Nov 2026 22:47:51 +0000</pubDate>
+      <enclosure
+        url="https://github.com/tinyshipsailors/flotnote.app/releases/download/v1.9.1/Flotnote-v1.9.1.dmg"
+        sparkle:edSignature="BZPIpticACVXXYLUCMe6nWQ9lFklcsDPXIV7RBtgCQjaKQ0t//soc7jrpk9JTAnGzc6FwZsJTr7ZPL0si8LMDA=="
+        length="5294055"
+        type="application/octet-stream"
+      />
+    </item>
+    <item>
       <title>Version 1.9.0</title>
       <description><![CDATA[<p><strong>What's New</strong></p><ul><li><strong>Obsidian embeds.</strong> A line with `![[Note]]`, `![[Note#Heading]]` or `![[Note#^block]]` now shows that note, section or block in a box, the way Obsidian does, instead of a plain link. A section brings its sub-headings with it, and a block is the paragraph, list item or table that carries the id. Flotnote looks for the note among your notes first, then anywhere in the Obsidian vault the note's folder belongs to, so you can embed from parts of the vault you haven't added to Flotnote. The box updates when the source changes, here or in Obsidian. Click the content to edit the `![[…]]` line, or the button in the corner to open the source at that section.</li><li><strong>Pick a heading or block.</strong> Type `#` after a note's name in `[[` to see its headings, or `#^` to see its paragraphs and list items. Picking a block that has no id yet adds one at the end of its line in the source note, as Obsidian does.</li><li><strong>Links to a section open at that section.</strong> `[[Note#Heading]]` and `[[Note#^block]]` put you right at the heading or block, in this window, a new tab or a new window. Hold Cmd or Cmd+Option over a link to see where it will open.</li><li><strong>Block ids look like labels.</strong> A `^id` at the end of a line shows small and dimmed, like in Obsidian.</li></ul><p><strong>Bug Fixes</strong></p><ul><li><strong>Links to a heading work.</strong> `[[Note#Heading]]` used to look like a missing note, and clicking it made a new note with "#Heading" in its name. It now opens the note, and reads "Note › Heading".</li><li><strong>Tag suggestions stay out of links.</strong> Typing `#` inside `[[` no longer pops up your tags.</li><li><strong>Numbered lists keep their numbers.</strong> A list that starts at 3 now starts at 3 in Copy as HTML and Export too.</li></ul>]]></description>
       <sparkle:version>38</sparkle:version>
