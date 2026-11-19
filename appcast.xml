@@ -6,6 +6,19 @@
     <description>Flotnote changelog</description>
     <language>en</language>
     <item>
+      <title>Version 1.9.2</title>
+      <description><![CDATA[<p><strong>Bug Fixes</strong></p><ul><li><strong>Find keeps your cursor in the search field.</strong> Since 1.8.0, pressing Enter or Backspace in the Find bar could send the cursor back into the note, mostly when the next match was in a table or further down. Your next keystroke then changed the note instead of the search. The cursor now stays in the Find bar until you press Esc or click the note.</li><li><strong>Cmd+F always goes back to the Find bar.</strong> When the Find bar was already open but you were typing in the note, Cmd+F didn't move you back to the search field. Now it does.</li></ul>]]></description>
+      <sparkle:version>40</sparkle:version>
+      <sparkle:shortVersionString>1.9.2</sparkle:shortVersionString>
+      <pubDate>Thu, 19 Nov 2026 12:58:29 +0000</pubDate>
+      <enclosure
+        url="https://github.com/tinyshipsailors/flotnote.app/releases/download/v1.9.2/Flotnote-v1.9.2.dmg"
+        sparkle:edSignature="iF6a4xQpGWkmAePp2vtO9ucjYHrFz4VFzE8uq+EfQx+N+4oQOFJAHjw/R4x5WAVW7MonhlpLpCoO/0G0/EiOCg=="
+        length="5295204"
+        type="application/octet-stream"
+      />
+    </item>
+    <item>
       <title>Version 1.9.1</title>
       <description><![CDATA[<p><strong>Bug Fixes</strong></p><ul><li><strong>Backticks work inside code blocks.</strong> After typing ``` to start a code block, a backtick at the start of a line inside it was ignored, so you couldn't type ` or `` there. You can now type backticks anywhere in a code block. Flotnote only holds back the third backtick that would end a block early and turn the rest of the note into code.</li></ul>]]></description>
       <sparkle:version>39</sparkle:version>
